@@ -1,0 +1,8 @@
+{
+  "liveServer.settings.multiRootWorkspaceName": "js-tutorial",
+  "files.autoSaveDelay": 600,
+  "editor.formatOnSave": true,
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"prettier.singleQuote": true,
+"prettier.jsxSingleQuote": true
+}
