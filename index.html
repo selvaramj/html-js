@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/css-files/main.css" />
+    <meta name="keywords" content="html, css, javascript, react" />
+    <meta name="description" content="Beginner tutorial of React" />
+    <title>GrowMoreWithUS</title>
+    <base href="/" />
+    <link rel="icon" href="growMoreLogo.png" />
+    <meta content="author" />
+    <link rel="stylesheet" href="css-files/main.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -54,6 +59,93 @@
         </div>
       </nav>
     </header>
+    <main id="main-container">
+      <div id="container">
+        <div class="left-main-container">
+          <h1>Sign In <span style="color: cadetblue">✔</span></h1>
+          <h4>Build your own business with your own idea😎</h4>
+          <form>
+            <div class="text-field">
+              <label for="userId">User ID</label><br />
+              <input
+                type="text"
+                placeholder="Enter your email or user-id"
+                id="userId"
+                required
+              />
+            </div>
+            <div class="password-field">
+              <label for="userPassword">Password</label><br />
+              <input
+                type="password"
+                placeholder="Enter your password"
+                id="userPassword"
+                required
+              />
+            </div>
+            <button type="submit" class="submit-button">Sign In🔑</button>
+          </form>
+          <div class="forgot-field">
+            Forgot your <span tabindex="0" role="link">User Id</span> or
+            <span tabindex="0" role="link">Password</span> ?
+          </div>
+        </div>
+        <div class="right-main-container">
+          <div>
+            <picture>
+              <img src="VectorImage.png" alt="Victory Cup" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="left-side-footer">
+        <div class="social">
+          <ul>
+            <li>
+              <a><i style="color: red" class="fa fa-youtube-play"></i></a>
+            </li>
+            <li>
+              <a
+                ><i style="color: rgb(63, 114, 155)" class="fa fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a><i style="color: skyblue" class="fa fa-twitter-square"></i></a>
+            </li>
+            <li>
+              <a
+                ><i style="color: royalblue" class="fa fa-linkedin-square"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="quick-navigation">
+          <ul>
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+            <li>
+              <a href="#">Help & Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-side-footer">
+        <div>
+          <address class="address-info">
+            <span
+              >NO: 14, sivan kovil street, kozhiyur,Tittagudi-606106,cuddalore
+              district</span
+            >
+          </address>
+        </div>
+        <div class="copy-rights">
+          <p>2009-2022 @ All Rights Reserved..</p>
+        </div>
+      </div>
+    </footer>
     <script type="text/javascript" src="/scripts/main.js"></script>
   </body>
 </html>
